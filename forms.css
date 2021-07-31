@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+header{
+    background-color: rgb(16, 51, 71);
+    color: white;
+    height: 10vh;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    align-items: center;
+    padding-left: 29px;
+}
+main{
+    height: 560px;
+    background-color: rgb(158, 165, 185);
+    padding-left: 55px;
+    font-family: 'Shippori Mincho', serif;
+}
+.submit{
+    padding-left: 0px;
+    margin-top: 37px;
+    border-top-width: 10px;
+    padding-top: 0px;
+}
+#click{
+  border: none;
+  color: rgb(16, 51, 71);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+#click:hover {
+    font-size: 22px;
+    color: rgb(189, 174, 40);
+  }
+footer{
+    background-color: rgb(16, 51, 71);
+    color: white;
+    height: 7vh;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    align-items: center;
+    padding-left: 29px;
+}

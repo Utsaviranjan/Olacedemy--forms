@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+
+<body>
+    <header><h2>Complete the form below and we can reach out to you!</h2></header>
+<main>
+<div class="forms">
+    
+    <div class="text"><form action="form.php" method="POST"></form>
+        <br>
+        <p style="padding-bottom: 8px;">Your name*</p>
+        <input type="text" cols="50" placeholder="First name" name="firstname" style="padding-right: 25 px; padding-left:0px;"> <input type="text" cols="50" placeholder="Last name" name="lastname" style="padding-right: 25px; padding-left: 0px;"><br>
+        <br>
+        <p style="padding-bottom: 8px;">Your gmail*</p>
+        <input type="text" cols="50" placeholder="enter your gmail" name="gmail" style="padding-left:47px;"> <br>
+        <br>
+        <p style="padding-bottom: 8px;">subject*</p>
+        <input type="text" cols="50" placeholder="subject" name="subject" style="padding-left:47px;"> <br><br></div>
+        <label for="Message">
+            <textarea name="note" id="Explain" cols="27" rows="04" placeholder="message" name="your message"></textarea>
+        </label>
+        <label for="query">
+        <textarea name="note" id="Explain" cols="27" rows="04" placeholder="🗩︁ Query..." name="query"></textarea>
+    </label>
+    <br><br>
+    <h4 style="padding-bottom: 8px;">How you got to know about us?</h4>
+    <select name="destination" id="Destination">
+        <option value="Ads">Ads</option>
+        <option value="Friend/collegue">Friend/collegue</option>
+        <option value="Our website">Our website</option>
+        <option value="Others">Others</option>
+    </select> <br><br><br> 
+    <div class="Submit">
+        <button id="click" >Submit</button>
+    </div>
+    <br><br><br><br>
+</div>
+</main>   
+<footer class="flex-all-center">
+    <p> copyright &copy; utsavi_ranjan@2021 </p>
+</footer>
+</body>
